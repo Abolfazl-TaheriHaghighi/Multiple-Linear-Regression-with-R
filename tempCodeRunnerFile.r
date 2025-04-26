@@ -20,12 +20,6 @@
 getwd()
 setwd(dir = "C:/Users/Abolfazl-Pc/Documents")
 my_data <- read.csv("DirectMarketing(mini).csv" , header = TRUE)
-#my_data
-sex <- my_data$Gender
-own <- my_data$OwnHome
-marr <- my_data$Married
-Sale <- my_data$Salary
-child <- my_data$Children
-cata <- my_data$Catalogs
-amount <- my_data$AmountSpent
-
+my_data
+Sal <- my_data$Salary
+Sal
